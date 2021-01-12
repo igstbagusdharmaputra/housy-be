@@ -1,0 +1,31 @@
+#version: '3'
+#services:
+#         housy-be:
+#            container_name: housy-be
+#            image: dharmatkj/housy-be:latest
+#            ports:
+#               - 5000:5000
+
+version: '3'
+services:
+         housy-be:
+            container_name: housy-be
+            image: dharmatkj/housy-be-alpine:latest
+            ports:
+               - 5000:5000
+#version: '3'
+#services:
+#         housy-be:
+#            image: dharmatkj/housy-be-multistage:latest
+#            container_name: housy-be
+#            ports:
+#               - 5000:5000
+#version: "3"
+#services:
+#    api:
+#        container_name: backend_housy
+#        image: dharmatkj/housy-be-multistage:latest
+#        ports:
+#            - 5000:5000
+#        environment:
+#            - NODE_ENV=development

@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "sgnd",
-    "password": "sgnd",
-    "database": "housy",
-    "host": "127.0.0.1",
+    "username": "dharma",
+    "password": "password",
+    "database": "db_housy",
+    "host": "10.10.2.223",
     "dialect": "mysql"
   },
   "test": {
@@ -14,8 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "dialect": "postgres",
-    "protocol": "postgres"
+    "username": "dharma",
+    "password": "password",
+    "database": "db_housy",
+    "host": "10.10.2.223",
+    "dialect": "mysql"
   }
 }
